@@ -18,5 +18,5 @@ FLOOD = int(os.environ.get("FLOOD", "5"))
 
 START_PIC = os.environ.get("START_PIC", "https://graph.org/file/6cb6f227120d1622707ba.jpg")
 
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5885920877').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6198858059').split()]
 
